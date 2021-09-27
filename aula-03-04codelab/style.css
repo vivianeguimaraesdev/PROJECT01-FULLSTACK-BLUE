@@ -3,48 +3,53 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
-    color:#FFFFFF;
     background-color: #575FCF;
-    text-align: center;
     padding: 1rem;
+    text-align: center;
     margin-bottom: 1rem;
+}
+
+header h2{
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
 }
 
 
 .js-form{ 
-    display: grid;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 /* Posicionamento de cada elemento forms utilizando conceitos Grid */
-#formName {
-    grid-column: 1;
-    grid-row: 1;
+ .styleform{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #485460;   
   }
-#formImg{
-    grid-column: 2;
-    grid-row: 1;
 
-}
-#formGender{
-    grid-column: 1;
-    grid-row: 2;
-}
-#formGrade{
-    grid-column: 2;
-    grid-row: 2;
-
-}
 
 #formEnviar{
    
     grid-column: 1;
     grid-row: 3;
-    width: 7rem;
-    height: 3rem;
+    width: 124px;
+    height: 47px;
     background-color: #2ECC71;
     border-radius: 15px;
+    color: white;
+    border: 1px solid #2ECC71;
+    font-size: 18px;
+    font-weight: 500;
+    left: 1023px;
+    top: 314px;
 }
 
 /* Estilização dos cards dos jogos */
