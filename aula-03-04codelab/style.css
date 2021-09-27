@@ -1,0 +1,94 @@
+*{  color: #485460;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color:#FFFFFF;
+    background-color: #575FCF;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.js-form{ 
+    display: grid;
+   
+}
+
+/* Posicionamento de cada elemento forms utilizando conceitos Grid */
+#formName {
+    grid-column: 1;
+    grid-row: 1;
+  }
+#formImg{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+#formGender{
+    grid-column: 1;
+    grid-row: 2;
+}
+#formGrade{
+    grid-column: 2;
+    grid-row: 2;
+
+}
+
+#formEnviar{
+   
+    grid-column: 1;
+    grid-row: 3;
+    width: 7rem;
+    height: 3rem;
+    background-color: #2ECC71;
+    border-radius: 15px;
+}
+
+/* Estilização dos cards dos jogos */
+.cardSection {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cardTemplate { /* Elemento pai de cada card individual */
+    margin:1rem;  
+    width:20rem;
+    height: 20rem;
+    background-color: #2ECC71;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cardTemplate h1{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.cardGameIMG img{
+    width: 20rem;
+}
+
+
+.cardInfoGender {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 11rem;
+    text-align: center;
+    color:#FFFFFF;
+    background: #3C40C6;
+    font-size: 1.3rem;
+}
+
+.cardInfoNota{ 
+    margin-left: 13rem; 
+    position:absolute;
+    font-size: 5rem;
+
+}
+
+/* Fim da estilização de cards */
+
